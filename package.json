@@ -1,0 +1,25 @@
+{
+  "name": "portfolioemailservice",
+  "version": "1.0.0",
+  "description": "This repository contains the source code for the email sending service for my portfolio. It allows visitors to send messages via a contact form, managing email sending, validating form data, and handling errors. Ideal for developers seeking a simple solution for integrating a contact email system into their portfolio.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^9.6.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "nodemon": "^3.1.4",
+    "prettier": "^3.3.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
