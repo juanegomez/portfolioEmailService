@@ -10,7 +10,7 @@ const {
 } = require('./src/middlewares/errorHandler'); // Error handling middlewares
 
 // Whitelist for CORS
-const whitelist = ['https://juanegomez.netlify.app', 'http://localhost:3001'];
+const whitelist = ['https://juanegomez.netlify.app', 'http://localhost:5173'];
 
 // CORS options
 const corsOptions = {
