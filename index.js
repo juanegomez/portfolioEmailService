@@ -1,13 +1,13 @@
 // Import necessary modules
 const express = require('express');
 const cors = require('cors');
-const { config } = require('./config/config'); // Configuration settings
-const routerApi = require('./routes'); // API routes
+const { config } = require('./src/config/config'); // Configuration settings
+const routerApi = require('./src/routes'); // API routes
 const {
   logErrors,
   errorHandler,
   boomErrorHandler,
-} = require('./middlewares/errorHandler'); // Error handling middlewares
+} = require('./src/middlewares/errorHandler'); // Error handling middlewares
 
 // Whitelist for CORS
 const whitelist = ['https://juanegomez.netlify.app', 'http://localhost:3001'];
